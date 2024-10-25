@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="/pages/countdown/files/scanlines.js"></script>
 	<script>
 
-	var theme = new Audio('/stuff/currentlyconnecting.ogg');
+	var theme = new Audio('/stuff/nnloop.ogg');
 	theme.play();
 	theme.loop = true;
 		
@@ -310,6 +310,10 @@ body {
 			font-family: Paragraph;
 			src: url(/stuff/paragraph.ttf);
 		}
+		@font-face {
+			font-family: ABR;
+			src: url(/stuff/abr.ttf);
+		}
 
 		body, html {
 			background-color: #000;
@@ -322,12 +326,12 @@ body {
 		}
 
 		@font-face {
-			font-family: CNT;
-			src: url(/res/fonts/countdown.ttf);
+			font-family: ABR;
+			src: url(/stuff/abr.ttf);
 		}
 
 		#counter {
-			font-family: CNT;
+			font-family: ABR;
 			position: fixed;
 			text-align: center;
 			top: 45vh;
